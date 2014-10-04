@@ -54,7 +54,7 @@
                       padding-bottom: 40%;
 							 height: 100%;
 }
-				 
+
               #overlay {
                       background-color: rgba(238,238,233,1);
 }
@@ -67,9 +67,10 @@
                       top: 0;
                       left: 0;
                       max-height: 100px;
+                      width: 100%;
                       z-index: -1;
 }
-				  
+
               #content {
                       padding-top: 250px;
                       position: relative;
@@ -151,22 +152,22 @@
 		  	     			 font-size: 4em;
 		  	     			 margin-left: auto;
 		  	     			 margin-right: auto;
-		  	     			 text-align: center;		  
+		  	     			 text-align: center;
         }
         		  h2{
         		  		    font-size: 1em;
-        		  		    text-align: center;	
+        		  		    text-align: center;
         }
         		  h3{
-							 font-size: .75em;      
-							 text-align: center;	   
+							 font-size: .75em;
+							 text-align: center;
         }
         	     #content {
-                      text-align: center;	
+                      text-align: center;
         }
 			     #header {
-                      padding-top: 100px;	
-        }        
+                      padding-top: 100px;
+        }
         		  #content2 {
                       text-align: center;
         }
@@ -174,16 +175,16 @@
               		    padding-right: 0px;
           	  		    float: none;
                       margin-right: auto;
-                      margin-left: auto; 
-                      text-align: center;	
+                      margin-left: auto;
+                      text-align: center;
 		  }
         		  #intro {
         		  			 float: none;
                       margin-left: auto;
-                      margin-right: auto;  
-                      text-align: center;	      
+                      margin-right: auto;
+                      text-align: center;
         }
-          	  
+
 		  			div.box {
 							 margin:0 0 0 0;
 						    float: left;
@@ -208,7 +209,7 @@
                       padding: 15px 0px 20px;
                       background: #ECECEC;
                       z-index: 0;
-        }				    
+        }
 				    #copyright {
                       position: relative;
                       margin-left: auto;

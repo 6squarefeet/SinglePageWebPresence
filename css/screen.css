@@ -61,12 +61,11 @@
 
               #background {
                       position: fixed;
-                      margin-left: 0;
+                      margin-left: auto;
                       margin-right: auto;
                       margin-top: 0;
                       top: 0;
                       left: 0;
-                      max-height: 100px;
                       width: 100%;
                       z-index: -1;
 }

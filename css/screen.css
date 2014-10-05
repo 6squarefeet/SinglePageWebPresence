@@ -372,6 +372,12 @@
    	      h1 {
    	                       font-size: 8em;
   }
+          h2 {
+                           font-size: 3em;
+  }
+          h3 {
+                           font-size: 1.5em;
+  }
 	        img.insert1 {
 		                       width: 100%;
 		                       min-width: 50%;
@@ -400,9 +406,7 @@
                  		       padding-bottom: 200px;
                            text-align: center;
   }
-        h2 {
-                           font-size: 3em;
-  }
+
 	      #content3 {
 	          	             padding-top: 3%;
   }

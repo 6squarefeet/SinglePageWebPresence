@@ -391,9 +391,7 @@
                            background: #DEDEDE;
                            z-index: 3;
                 		       line-height: 1.5em;
-  }
-          #footer h3 {
-                           font-size: .8em;
+                		       font-size: .8em;
   }
 	      #copyright {
                            position: relative;

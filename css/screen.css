@@ -370,12 +370,8 @@
 
 	@media (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi){
    	      h1 {
-   	                       font-size: 15em;
+   	                       font-size: 10em;
   }
-
-   	      img.background {
-		                       min-width: 500px;
-	}
 	        img.insert1 {
 		                       width: 100%;
 		                       min-width: 50%;
@@ -403,6 +399,9 @@
 		                       padding-top: 35%;
                  		       padding-bottom: 200px;
                            text-align: center;
+  }
+        h2 {
+                           font-size: 3em;
   }
 	      #content3 {
 	          	             padding-top: 3%;

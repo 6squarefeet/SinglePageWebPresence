@@ -1,4 +1,4 @@
-              html {
+        html {
                       -webkit-text-size-adjust: 100%;
                       -moz-text-size-adjust: 100%;
                       -ms-text-size-adjust: 100%;
@@ -369,62 +369,66 @@
 }
 
 	@media (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi){
+   	      h1 {
+   	                       font-size: 15em;
+  }
+
    	      img.background {
-		      min-width: 500px;
+		                       min-width: 500px;
 	}
-	      img.insert1 {
-		      width: 100%;
-		      min-width: 50%;
+	        img.insert1 {
+		                       width: 100%;
+		                       min-width: 50%;
 	}
-	      #header {
-		      padding-top: 100px;
-                      padding-bottom: 80%;
+	        #header {
+		                       padding-top: 100px;
+                           padding-bottom: 80%;
 	}
-	      #footer {
-                      padding: 15px 0px 15px;
-                      background: #DEDEDE;
-                      z-index: 3;
-		      line-height: 1.5em;
-        }
+	        #footer {
+                           padding: 15px 0px 15px;
+                           background: #DEDEDE;
+                           z-index: 3;
+                		       line-height: 1.5em;
+  }
 	      #copyright {
-                      position: relative;
-                      margin-left: auto;
-                      margin-right: auto;
-                      left: 0;
-                      right: 0;
-                      float: none;
-                      text-align: center;
-        }
+                           position: relative;
+                           margin-left: auto;
+                           margin-right: auto;
+                           left: 0;
+                           right: 0;
+                           float: none;
+                           text-align: center;
+  }
 	      #content2 {
-		      padding-top: 35%;
-		      padding-bottom: 200px;
-                      text-align: center;
-        }
+		                       padding-top: 35%;
+                 		       padding-bottom: 200px;
+                           text-align: center;
+  }
 	      #content3 {
-		      padding-top: 3%;
-        }
+	          	             padding-top: 3%;
+  }
 	      #content3 h2 {
-		      font-size: 2em;
-		      top: 25%;
+		                       font-size: 5em;
+                  		     top: 25%;
 	}
-              #links {
-                      position: relative;
-                      margin-left: auto;
-                      margin-right: auto;
-                      left: 0;
-                      right: 0;
-                      float: none;
-                      text-align: center;
+        #links {
+                           position: relative;
+                           margin-left: auto;
+                           margin-right: auto;
+                           left: 0;
+                           right: 0;
+                           float: none;
+                           text-align: center;
 	}
 	      div.box {
-		      float: none;
-		      width:100%;
-		      margin-left: auto;
-		      margin-right: auto;
-		      height: 20%;
-		      left: 0;
-		      border: 1px;
-		      text-align: center;
-		      z-index: 1;
+		                       float: none;
+		                       width:100%;
+		                       margin-left: auto;
+		                       margin-right: auto;
+		                       height: 20%;
+              		         left: 0;
+		                       border: 1px;
+		                       text-align: center;
+                		       z-index: 1;
 	}
 }

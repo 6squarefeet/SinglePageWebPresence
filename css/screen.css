@@ -392,6 +392,9 @@
                            z-index: 3;
                 		       line-height: 1.5em;
   }
+          #footer h3 {
+                           font-size: .8em;
+  }
 	      #copyright {
                            position: relative;
                            margin-left: auto;
@@ -410,10 +413,6 @@
 	      #content3 {
 	          	             padding-top: 3%;
   }
-	      #content3 h2 {
-		                       font-size: 5em;
-                  		     top: 25%;
-	}
         #links {
                            position: relative;
                            margin-left: auto;
@@ -434,7 +433,4 @@
 		                       text-align: center;
                 		       z-index: 1;
 	}
-	     page.img {
-	                        src="img/bg.jpg"
-  }
 }

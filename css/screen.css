@@ -379,7 +379,7 @@
 	}
 }
 
-	@media (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi)  {
+	@media (-webkit-min-device-pixel-ratio: 2) {
 
    	      h1 {
    	                       font-size: 4em;

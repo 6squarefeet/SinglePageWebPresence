@@ -38,10 +38,17 @@
                       color: #333;
                       text-align: center;
                       z-index: 1;
-		      line-height: 2em;
+		                  line-height: 2em;
 }
-	      h3 span {
-		      display: block;
+              ul {
+                      font-size: .8em;
+                      font-weight: normal;
+                      color: #333;
+                      text-align: center;
+                      z-index: 1;
+             		      line-height: 2em;
+		                  margin-top: 20%;
+		                  padding-bottom: 20%;
 }
 
               a {
@@ -60,7 +67,6 @@
               	      position: relative;
 		      padding-top: 10%;
 		      padding-bottom: 10%;
-		      height: calc(100% - 3em)
 }
 
   	      #arrow {
@@ -154,7 +160,7 @@
 	      div.box a {
 		      font-size: 1em;
                       font-weight: normal;
-                      color: rgb(177,177,177);
+                      color: rgb(120,120,120);
                       text-align: center;
                       z-index: 1;
 		      line-height: 2em;
@@ -164,8 +170,8 @@
               #content3 {
                       padding-top: 15%;
                       z-index: 1;
-		      background: rgba(247,245,245,.95);
-		      position: relative;
+		                  background: rgba(247,245,245,.95);
+		                  position: relative;
 }
 
 	      img.insert1 {
@@ -180,7 +186,7 @@
    		      position: absolute;
 		      color: white;
 		      margin-left: auto;
-		      martin-right: auto;
+		      margin-right: auto;
 		      left: 0;
 		      right: 0;
 		      font-size: 5em;
@@ -272,7 +278,7 @@
         }
 
 	      #content3 h2 {
-		      top: 35%;
+		      top: 45%;
 	}
               #profilepic {
               	      padding-right: 0px;
@@ -295,82 +301,89 @@
 		      width: 49%;
 		      height: 300px;
 
-        }
-              a {
-                      font-size: .7em;
-        }
-       	      #footer {
-                      padding: 35px 50px 60px;
-                      background: #DEDEDE;
-		      bottom: 0;
-                      z-index: 3;
-        }
+  }
+          a {
+                           font-size: .7em;
+  }
+       	  #footer {
+                           padding: 35px 50px 60px;
+                           background: #DEDEDE;
+		                       bottom: 0;
+                           z-index: 3;
+  }
 }
 
 	@media all and (max-width:700px) and (min-width: 100px){
-	      img.background {
-		      min-width: 500px;
+
+	        h1 {
+	                         font-size: 5em;
+            	             font-weight: bold;
+  }
+	        img.background {
+		                       min-width: 500px;
 	}
-	      img.insert1 {
-		      width: 100%;
-		      min-width: 50%;
+  	      img.insert1 {
+                  		     width: 100%;
+		                       min-width: 50%;
 	}
-	      #header {
-		      padding-top: 100px;
-                      padding-bottom: 80%;
+  	      #header {
+		                       padding-top: 100px;
+                           padding-bottom: 80%;
 	}
-	      #footer {
-                      padding: 15px 0px 15px;
-                      background: #DEDEDE;
-                      z-index: 3;
-		      line-height: 1.5em;
-        }
-	      #copyright {
-                      position: relative;
-                      margin-left: auto;
-                      margin-right: auto;
-                      left: 0;
-                      right: 0;
-                      float: none;
-                      text-align: center;
-        }
-	      #content2 {
-		      padding-top: 35%;
-		      padding-bottom: 200px;
-                      text-align: center;
-        }
-	      #content3 {
-		      padding-top: 3%;
-        }
-	      #content3 h2 {
-		      font-size: 2em;
-		      top: 25%;
+	        #footer {
+                           padding: 15px 0px 15px;
+                           background: #DEDEDE;
+                           z-index: 3;
+		                       line-height: 1.5em;
+  }
+  	      #copyright {
+                           position: relative;
+                           margin-left: auto;
+                           margin-right: auto;
+                           left: 0;
+                           right: 0;
+                           float: none;
+                           text-align: center;
+  }
+   	      #content2 {
+                  		     padding-top: 35%;
+		                       padding-bottom: 200px;
+                           text-align: center;
+  }
+   	      #content3 {
+		                       padding-top: 3%;
+  }
+	        #content3 h2 {
+		                       font-size: 2em;
+		                       top: 25%;
 	}
-              #links {
-                      position: relative;
-                      margin-left: auto;
-                      margin-right: auto;
-                      left: 0;
-                      right: 0;
-                      float: none;
-                      text-align: center;
+          #links {
+                           position: relative;
+                           margin-left: auto;
+                           margin-right: auto;
+                           left: 0;
+                           right: 0;
+                           float: none;
+                           text-align: center;
 	}
-	      div.box {
-		      float: none;
-		      width:100%;
-		      margin-left: auto;
-		      margin-right: auto;
-		      height: 20%;
-		      left: 0;
-		      border: 1px;
-		      text-align: center;
-		      z-index: 1;
+	        div.box {
+		                       float: none;
+		                       width:100%;
+		                       margin-left: auto;
+		                       margin-right: auto;
+		                       height: 20%;
+		                       left: 0;
+		                       border: 1px;
+		                       text-align: center;
+		                       z-index: 1;
 	}
 }
 
-	@media (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+	@media screen and (min-resolution: 2dppx) {
+
    	      h1 {
    	                       font-size: 8em;
+   	                       font-weight: bold;
   }
           h2 {
                            font-size: 3em;
@@ -396,7 +409,7 @@
           #footer a {
                            font-size: .8em;
   }
-	      #copyright {
+	        #copyright {
                            position: relative;
                            margin-left: auto;
                            margin-right: auto;
@@ -405,16 +418,19 @@
                            float: none;
                            text-align: center;
   }
-	      #content2 {
+	        #content2 {
 		                       padding-top: 35%;
                  		       padding-bottom: 200px;
                            text-align: center;
   }
 
-	      #content3 {
+	        #content3 {
 	          	             padding-top: 3%;
   }
-        #links {
+          #content3 h2 {
+		                       top: 25%;
+	}
+          #links {
                            position: relative;
                            margin-left: auto;
                            margin-right: auto;

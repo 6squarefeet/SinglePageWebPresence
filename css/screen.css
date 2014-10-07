@@ -239,7 +239,7 @@
 	}
 }
 
-        @media all and (max-width: 1599px) and (min-width: 100px){
+        @media all and (max-width: 1599px) and (min-width: 701px){
 	      h1{
 		      font-size: 4em;
 		      margin-left: auto;
@@ -316,7 +316,7 @@
 	@media all and (max-width:700px) and (min-width: 100px){
 
 	        h1 {
-	                         font-size: 2em;
+	                         font-size: 5em;
             	             font-weight: bold;
   }
 	        img.background {
@@ -379,7 +379,7 @@
 	}
 }
 
-	@media (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+	@media (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi)  {
 
    	      h1 {
    	                       font-size: 2em;

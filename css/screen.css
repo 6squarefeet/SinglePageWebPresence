@@ -90,17 +90,16 @@
 		      left: 0px;
 		      z-index: 0;
 }
-
-			video#bgvid {
-			 min-height: 100%;
- 			 z-index: -1;
- 			  min-width: 1500px;
-		      width: 100%;
-		      height: auto;
-		      top: 0;
-		      left: 0;
-		      position: fixed;
+					 img.background {
+min-height: 100%;
+min-width: 1500px;
+width: 100%;
+height: auto;
+top: 0;
+left: 0;
+position: fixed;
 }
+			
               #content {
                       padding-top: 15%;
 		      padding-bottom: 22.5%;
@@ -253,7 +252,9 @@
 		      font-size: .75em;
 		      text-align: center;
         }
-	      
+	       img.background {
+min-width: 899px;
+}
               #content {
                       text-align: center;
         }
@@ -320,6 +321,9 @@
                   		     width: 100%;
 		                       min-width: 50%;
 	}
+	 img.background {
+min-width: 500px;
+}
   	      #header {
 		                       padding-top: 100px;
                            padding-bottom: 80%;
@@ -403,6 +407,11 @@
 		                       padding-top: 100px;
                            padding-bottom: 40%;
 	}
+	
+	 img.insert1 {
+- width: 100%;
+- min-width: 50%;
+- }
 
           #profilepic {
               	           padding-right: 0px;

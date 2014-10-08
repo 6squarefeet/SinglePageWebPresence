@@ -90,16 +90,18 @@
 		      left: 0px;
 		      z-index: 0;
 }
-					 img.background {
-min-height: 100%;
-min-width: 1500px;
-width: 100%;
-height: auto;
-top: 0;
-left: 0;
-position: fixed;
+
+	      img.background {
+                      min-height: 100%;
+		      min-width: 1500px;
+		      width: 100%;
+		      height: auto;
+		      top: 0;
+		      left: 0;
+		      position: fixed;
+                      z-index: -1;
 }
-			
+
               #content {
                       padding-top: 15%;
 		      padding-bottom: 22.5%;
@@ -252,9 +254,9 @@ position: fixed;
 		      font-size: .75em;
 		      text-align: center;
         }
-	       img.background {
-min-width: 899px;
-}
+	      img.background {
+		      min-width: 899px;
+	}
               #content {
                       text-align: center;
         }
@@ -317,13 +319,13 @@ min-width: 899px;
 	                         font-size: 5em;
             	             font-weight: bold;
   }
+	        img.background {
+		                       min-width: 500px;
+	}
   	      img.insert1 {
                   		     width: 100%;
 		                       min-width: 50%;
 	}
-	 img.background {
-min-width: 500px;
-}
   	      #header {
 		                       padding-top: 100px;
                            padding-bottom: 80%;
@@ -403,15 +405,14 @@ min-width: 500px;
           #arrow {
 		                       margin-top: 20.2em;
 	}
+	        img.insert1 {
+		                       width: 100%;
+		                       min-width: 50%;
+	}
 	        #header {
 		                       padding-top: 100px;
                            padding-bottom: 40%;
 	}
-	
-	 img.insert1 {
-- width: 100%;
-- min-width: 50%;
-- }
 
           #profilepic {
               	           padding-right: 0px;
